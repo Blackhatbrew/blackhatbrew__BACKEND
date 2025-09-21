@@ -35,3 +35,4 @@ cloudinary.config({
 });
 
 mongoose.connect(process.env.CONNECTION_URL).then(() => { console.log('Connected Successfully.'); }).catch((err) => console.log('No connection ', err)); const server = app.listen(PORT, () => console.log("Listening on port ", PORT));
+
